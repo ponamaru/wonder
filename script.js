@@ -389,20 +389,6 @@ window.addEventListener('load',function(){
                         setTimeout(fadeOutIn_bg_change,1500);
                         setTimeout(fadeOutIn_bg_remove,3000);
                         break;
-                    case 'changeimg':
-
-                        const changeimg = document.getElementById("img1");
-                                changeimg.src = "car.png";
-                        break;
-                    case 'changeimg2':
-
-                        const changeimg2 = document.getElementById("img2");
-                                changeimg.src = "64.png";
-                        break;
-                    case 'audio':
-                    const audio = new Audio('爆発1.mp3');
-                      audio.play();
-                        break;
                 }
             }
         if(!stop_flg){
